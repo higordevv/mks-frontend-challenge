@@ -8,7 +8,7 @@ import {
 export const ProductsApi = createApi({
   reducerPath: "ProductsApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://mks-challenge-api-frontend.herokuapp.com/api/v1",
+    baseUrl: "https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api/v1",
   }),
   endpoints: (build) => ({
     getProducts: build.query<ProductResponseRequest, ParamProductRequest>({
